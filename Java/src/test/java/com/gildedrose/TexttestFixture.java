@@ -2,7 +2,7 @@ package com.gildedrose;
 
 public class TexttestFixture {
     public static void main(String[] args) {
-        System.out.println("OMGHAI!");
+        System.out.println("Welcome to the Gilded Rose Inn!");
 
         Item[] items = new Item[] {
                 new Item("+5 Dexterity Vest", 10, 20), //
@@ -30,7 +30,7 @@ public class TexttestFixture {
                 System.out.println(item);
             }
             System.out.println();
-            app.updateQuality();
+            app.nextDay();
         }
     }
 
